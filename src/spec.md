@@ -1,12 +1,11 @@
 # Specification
 
 ## Summary
-**Goal:** Update the Home page hero to prominently show the game title, studio name, developer credits, and release window, and set the browser tab title to “Axses”.
+**Goal:** Replace the Home hero background with a new cinematic grunge gaming texture (Cyberpunk × Samurai × Dark Souls mood) while keeping the hero layout and text unchanged.
 
 **Planned changes:**
-- Update the Home hero layout so “Axses” appears centered near the top as the most prominent text.
-- Add a centered, readable credits block near the bottom of the Home hero with: “Developer: Rohan Kadam”, “Solo Game Developer”, “Studying FY BSc (Game Developer)”, and “Release Window: 2027–2028”.
-- Display “Night Magic” on the Home hero in italic styling with a red text color.
-- Set the document/browser tab title (HTML `<title>`) to “Axses”.
+- Add a new static PNG background asset: `frontend/public/assets/generated/axses-hero-cinematic-texture.dim_1920x1080.png` matching the specified atmospheric grunge style (no text/logos/faces/characters).
+- Update `frontend/src/components/home/HeroSection.tsx` to use the new background image URL instead of the current nature hero background.
+- Adjust the hero overlay/gradient so the section stays moody but not overly dark or overly high-contrast, preserving readability without changing existing hero content/layout.
 
-**User-visible outcome:** On the Home page first screen, users see “Axses” prominently near the top, “Night Magic” in red italic text, and a clear developer/release window block near the bottom; the browser tab title shows “Axses”.
+**User-visible outcome:** The Home page hero displays a new cinematic grunge texture background with a moody gaming feel, while all existing hero text and layout remain the same.

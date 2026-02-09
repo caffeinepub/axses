@@ -10,7 +10,7 @@
   "frontend/src/hooks/useRevealOnScroll.ts": "Custom hook using IntersectionObserver to trigger fade-in animations when elements scroll into view.",
   "frontend/src/hooks/useParallax.ts": "Custom hook that calculates parallax offset using requestAnimationFrame for smooth scroll-based transform effects.",
   "frontend/src/hooks/useQueries.ts": "React Query mutation hook for submitting contact form data to the backend actor.",
-  "frontend/src/components/home/HeroSection.tsx": "Hero section component displaying \"Axses\" as the prominent game title at the top, \"Night Magic\" studio name in italic red text, tagline, CTA button, and developer credits with release window 2027–2028 at the bottom, all with parallax background effect.",
+  "frontend/src/components/home/HeroSection.tsx": "Hero section component displaying \"Axses\" as the prominent game title at the top, \"Night Magic\" studio name in italic red text, tagline, CTA button, and developer credits with release window 2027–2028 at the bottom, now using the cinematic grunge texture background with adjusted overlay gradient for better readability.",
   "frontend/src/pages/HomePage.tsx": "Home page with hero section and two additional sections showcasing key features with animated reveal cards.",
   "frontend/src/pages/AboutGamePage.tsx": "About page with detailed game description including 4km map, city/town, rivers, mountains, and 8GB RAM optimization information.",
   "frontend/src/pages/FeaturesPage.tsx": "Features page that renders the FeatureCards component with heading and description.",

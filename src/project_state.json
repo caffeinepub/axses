@@ -1,40 +1,27 @@
 {
   "schemaVersion": "1.0.0",
   "projectStateVersion": 3,
-  "summary": "Project to build a game/app front (first screen) title/credits layout for the game \"Axses\" with developer/studio info and release window.",
-  "architectural_notes": [],
+  "summary": "New project",
+  "architectural_notes": [
+    "Background art constraints: no characters/faces/logos/text; atmosphere-only. Use black/charcoal grunge with brush/scratch effects; user also requests lighter tones and avoiding overly dark colors/high contrast—resolve by keeping dark base subtle with restrained highlights."
+  ],
   "known_issues": [],
   "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Atmospheric grunge texture background in black and charcoal with brush strokes and scratched paint, subtle controlled white highlights, optional abstract warrior-like silhouette without any face detail, minimal and moody (axses-hero-cinematic-texture.dim_1920x1080.png)",
   "existing_features": [
     {
-      "id": "feature-update-the-home-page-first-screen-hero-layout-to-display-the-game-title-axses-centered-in-the-upper-portion-of-the-screen-as-the-primary-most-prominent-text",
-      "title": "Update the Home page first-screen (hero) layout to display the game title \"Axses\" centered in the upper portion of the screen as the primary/most prominent text.",
+      "id": "feature-generate-a-new-cinematic-grunge-background-image-matching-the-requested-mood-cyberpunk-samurai-dark-souls-with-black-charcoal-texture-brushed-scratched-paint-effects-minimal-abstract-atmosphere-and-optionally-a-non-literal-warrior-silhouette-ensure-the-image-contains-no-characters-no-faces-no-logos-and-no-text-and-avoid-overly-dark-overall-exposure-and-avoid-excessive-contrast-keep-highlights-subtle-save-it-as-a-static-asset-in-frontend-public-assets-generated-and-use-the-exact-filename-provided-in-the-image-requirements",
+      "title": "Generate a new cinematic grunge background image matching the requested mood (Cyberpunk × Samurai × Dark Souls) with black/charcoal texture, brushed/scratched paint effects, minimal abstract atmosphere, and (optionally) a non-literal warrior silhouette; ensure the image contains no characters, no faces, no logos, and no text, and avoid overly dark overall exposure and avoid excessive contrast (keep highlights subtle). Save it as a static asset in frontend/public/assets/generated and use the exact filename provided in the image requirements.",
       "reqIds": [
-        "REQ-1"
+        "REQ-5"
       ],
       "version": 1
     },
     {
-      "id": "feature-add-the-following-developer-credits-block-to-the-lower-portion-of-the-home-hero-first-screen-centered-and-clearly-readable-over-the-hero-background-developer-rohan-kadam-solo-game-developer-studying-fy-bsc-game-developer-and-release-window-2027-2028",
-      "title": "Add the following developer/credits block to the lower portion of the Home hero (first screen), centered and clearly readable over the hero background: \"Developer: Rohan Kadam\", \"Solo Game Developer\", \"Studying FY BSc (Game Developer)\", and \"Release Window: 2027–2028\".",
+      "id": "feature-update-the-home-hero-section-background-to-use-the-new-generated-cinematic-texture-image-instead-of-the-current-nature-background-and-adjust-the-existing-overlay-the-gradient-layer-on-top-of-the-image-to-preserve-a-moody-cinematic-feel-while-respecting-the-request-to-avoid-making-the-section-too-dark-or-overly-high-contrast-keep-all-existing-hero-text-and-layout-unchanged",
+      "title": "Update the Home hero section background to use the new generated cinematic texture image instead of the current nature background, and adjust the existing overlay (the gradient layer on top of the image) to preserve a moody cinematic feel while respecting the request to avoid making the section too dark or overly high-contrast; keep all existing hero text and layout unchanged.",
       "reqIds": [
-        "REQ-2"
-      ],
-      "version": 1
-    },
-    {
-      "id": "feature-display-the-game-company-studio-name-text-night-magic-on-the-home-hero-first-screen-in-italic-styling-and-red-text-color",
-      "title": "Display the game company/studio name text \"Night Magic\" on the Home hero (first screen) in italic styling and red text color.",
-      "reqIds": [
-        "REQ-3"
-      ],
-      "version": 1
-    },
-    {
-      "id": "feature-update-the-browser-tab-page-title-html-title-to-use-the-game-name-axses-english-text",
-      "title": "Update the browser tab/page title (HTML <title>) to use the game name \"Axses\" (English text).",
-      "reqIds": [
-        "REQ-4"
+        "REQ-6"
       ],
       "version": 1
     }
@@ -42,12 +29,12 @@
   "new_feature_requests": [
     {
       "id": "AR-1",
-      "summary": "Create/update first screen (front tab) title layout: 'Axses' top/upper center, developer credit text at bottom, release window 2027–2028, and studio name 'Night Magic' in italic red.",
+      "summary": "Create/update section background with a cinematic gaming texture (cyberpunk × samurai × dark souls mood) using grunge/brush-stroke scratches, minimal and moody; no text/logos/faces; abstract silhouette only if non-character.",
       "reqIds": [],
       "status": "pending"
     }
   ],
-  "projectName": "Axses",
+  "projectName": "Replace hero section background with cinematic grunge gaming texture",
   "clarification_mode": "instant",
   "clarification_rounds": 0
 }

@@ -12,12 +12,12 @@ export function HeroSection() {
         className="absolute inset-0 z-0"
         style={{
           transform: `translateY(${parallaxOffset}px)`,
-          backgroundImage: 'url(/assets/generated/axses-hero-nature.dim_1920x1080.png)',
+          backgroundImage: 'url(/assets/generated/axses-hero-cinematic-texture.dim_1920x1080.png)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/30 to-background" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/25 to-background/90" />
       </div>
 
       <div className="container relative z-10 text-center px-4 pt-8 md:pt-16">

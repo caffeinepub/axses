@@ -1,68 +1,45 @@
 {
   "kind": "coverage_report",
   "version": "1.0",
-  "generatedAt": "2026-02-09T03:15:15.883Z",
+  "generatedAt": "2026-02-09T03:34:14.091Z",
   "sources": {
     "buildRequest": true,
     "implementationPlan": true
   },
   "requirements": {
-    "total": 4,
-    "implemented": 4,
+    "total": 2,
+    "implemented": 2,
     "items": [
       {
-        "id": "REQ-1",
-        "summary": "Update the Home page first-screen (hero) layout to display the game title \"Axses\" centered in the upper portion of the screen as the primary/most prominent text.",
+        "id": "REQ-5",
+        "summary": "Generate a new cinematic grunge background image matching the requested mood (Cyberpunk × Samurai × Dark Souls) with black/charcoal texture, brushed/scratched paint effects, minimal abstract atmosphere, and (optionally) a non-literal warrior silhouette; ensure the image contains no characters, no faces, no logos, and no text, and avoid overly dark overall exposure and avoid excessive contrast (keep highlights subtle). Save it as a static asset in frontend/public/assets/generated and use the exact filename provided in the image requirements.",
         "status": "implemented",
         "plannedFiles": [
-          "frontend/src/components/home/HeroSection.tsx"
+          "frontend/public/assets/generated/axses-hero-cinematic-texture.dim_1920x1080.png"
         ],
         "matchedFiles": [
-          "frontend/src/components/home/HeroSection.tsx"
+          "frontend/public/assets/generated/axses-hero-cinematic-texture.dim_1920x1080.png"
         ]
       },
       {
-        "id": "REQ-2",
-        "summary": "Add the following developer/credits block to the lower portion of the Home hero (first screen), centered and clearly readable over the hero background: \"Developer: Rohan Kadam\", \"Solo Game Developer\", \"Studying FY BSc (Game Developer)\", and \"Release Window: 2027–2028\".",
+        "id": "REQ-6",
+        "summary": "Update the Home hero section background to use the new generated cinematic texture image instead of the current nature background, and adjust the existing overlay (the gradient layer on top of the image) to preserve a moody cinematic feel while respecting the request to avoid making the section too dark or overly high-contrast; keep all existing hero text and layout unchanged.",
         "status": "implemented",
         "plannedFiles": [
           "frontend/src/components/home/HeroSection.tsx"
         ],
         "matchedFiles": [
           "frontend/src/components/home/HeroSection.tsx"
-        ]
-      },
-      {
-        "id": "REQ-3",
-        "summary": "Display the game company/studio name text \"Night Magic\" on the Home hero (first screen) in italic styling and red text color.",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/components/home/HeroSection.tsx"
-        ],
-        "matchedFiles": [
-          "frontend/src/components/home/HeroSection.tsx"
-        ]
-      },
-      {
-        "id": "REQ-4",
-        "summary": "Update the browser tab/page title (HTML <title>) to use the game name \"Axses\" (English text).",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/index.html"
-        ],
-        "matchedFiles": [
-          "frontend/index.html"
         ]
       }
     ]
   },
   "changedFiles": [
     "build-request.json",
-    "caffeine.lock.json",
     "feature_evidence.json",
     "frontend-file-summaries.txt",
     "frontend-implementation-plan.json",
-    "frontend/index.html",
+    "frontend/public/assets/generated/axses-hero-cinematic-texture.dim_1920x1080.png",
     "frontend/src/components/home/HeroSection.tsx",
     "project_state.json",
     "scratch/component-selection.json",
