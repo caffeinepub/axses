@@ -1,0 +1,66 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Update Home hero content and browser title to Axses branding",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Update the Home hero to show the game title “Axses” centered near the top as the most prominent text.",
+      "acceptanceCriteria": [
+        "On the Home page, the first screen shows \"Axses\" centered near the top (upper portion) and it is visually the most prominent text element in the hero area.",
+        "The layout remains responsive on mobile and desktop without overlapping text."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/home/HeroSection.tsx",
+          "operation": "modify",
+          "description": "Adjust the hero layout so the primary heading text becomes “Axses”, positioned in the upper portion and centered. Ensure typography makes it the most prominent element (e.g., largest size/weight and existing hero-title styling) and keep other hero content from overlapping on small screens."
+        }
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "summary": "Add a centered developer/credits block to the bottom area of the Home hero including the release window 2027–2028.",
+      "acceptanceCriteria": [
+        "The Home hero shows all four lines of the credit block near the bottom area of the first screen.",
+        "The release window displays as “2027–2028” (en dash) and is labeled in English as “Release Window: 2027–2028”."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/home/HeroSection.tsx",
+          "operation": "modify",
+          "description": "Add a bottom-positioned (lower portion of first screen) centered credits block within the hero: “Developer: Rohan Kadam”, “Solo Game Developer”, “Studying FY BSc (Game Developer)”, and “Release Window: 2027–2028” (use an en dash). Ensure text remains clearly readable over the background (e.g., spacing and optional subtle overlay/backdrop) and responsive."
+        }
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "summary": "Display the studio name “Night Magic” on the Home hero in italic red text.",
+      "acceptanceCriteria": [
+        "\"Night Magic\" appears on the first screen and is italicized.",
+        "\"Night Magic\" uses a red font color (readable against the hero background)."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/home/HeroSection.tsx",
+          "operation": "modify",
+          "description": "Add the studio name text “Night Magic” to the hero content (first screen) and style it with italic typography and a red text color that remains readable against the hero background (adjust shade/contrast as needed)."
+        }
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "summary": "Set the browser tab/page title to “Axses”.",
+      "acceptanceCriteria": [
+        "The document title displayed in the browser tab is \"Axses\"."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Update the HTML document <title> to exactly “Axses” so the browser tab shows the game name."
+        }
+      ]
+    }
+  ]
+}

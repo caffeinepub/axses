@@ -1,0 +1,97 @@
+{
+  "kind": "build_request",
+  "title": "Update home hero to show Axses title, developer credits, studio name, and release window",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Update the Home page first-screen (hero) layout to display the game title \"Axses\" centered in the upper portion of the screen as the primary/most prominent text.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Bro wright a game name in front tab The are samller big a Axses name in the center but upper portion of fist scree"
+        ]
+      },
+      "acceptanceCriteria": [
+        "On the Home page, the first screen shows \"Axses\" centered near the top (upper portion) and it is visually the most prominent text element in the hero area.",
+        "The layout remains responsive on mobile and desktop without overlapping text."
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Add the following developer/credits block to the lower portion of the Home hero (first screen), centered and clearly readable over the hero background: \"Developer: Rohan Kadam\", \"Solo Game Developer\", \"Studying FY BSc (Game Developer)\", and \"Release Window: 2027–2028\".",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "and wring in down Devloper Rohan Kadam  Solo Game developer studying Fy Bsc ( Game Devloper )      and game realise date changers to  2027-2028"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The Home hero shows all four lines of the credit block near the bottom area of the first screen.",
+        "The release window displays as “2027–2028” (en dash) and is labeled in English as “Release Window: 2027–2028”."
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Display the game company/studio name text \"Night Magic\" on the Home hero (first screen) in italic styling and red text color.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "And my game company name is \"Night Magic Wright in Italic in read font  \""
+        ]
+      },
+      "acceptanceCriteria": [
+        "\"Night Magic\" appears on the first screen and is italicized.",
+        "\"Night Magic\" uses a red font color (readable against the hero background)."
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Update the browser tab/page title (HTML <title>) to use the game name \"Axses\" (English text).",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Bro wright a game name in front tab"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The document title displayed in the browser tab is \"Axses\"."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify files under frontend/src/components/ui (shadcn components are read-only).",
+    "Do not edit immutable hook/entry files listed in SYSTEM_CONTEXT. Compose using existing components instead."
+  ],
+  "nonGoals": [
+    "No backend/canister changes are required for this request.",
+    "No new pages or navigation changes.",
+    "No changes to contact form behavior."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  },
+  "userProfileUpdate": {
+    "goalsToAdd": [],
+    "goalsToRemove": [],
+    "preferencesToAdd": [],
+    "preferencesToRemove": [],
+    "miscToAdd": [],
+    "miscToRemove": [],
+    "fieldsToSet": {},
+    "fieldsToDelete": []
+  }
+}

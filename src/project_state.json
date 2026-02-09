@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Project to build a game/app front (first screen) title/credits layout for the game \"Axses\" with developer/studio info and release window.",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-update-the-home-page-first-screen-hero-layout-to-display-the-game-title-axses-centered-in-the-upper-portion-of-the-screen-as-the-primary-most-prominent-text",
+      "title": "Update the Home page first-screen (hero) layout to display the game title \"Axses\" centered in the upper portion of the screen as the primary/most prominent text.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-following-developer-credits-block-to-the-lower-portion-of-the-home-hero-first-screen-centered-and-clearly-readable-over-the-hero-background-developer-rohan-kadam-solo-game-developer-studying-fy-bsc-game-developer-and-release-window-2027-2028",
+      "title": "Add the following developer/credits block to the lower portion of the Home hero (first screen), centered and clearly readable over the hero background: \"Developer: Rohan Kadam\", \"Solo Game Developer\", \"Studying FY BSc (Game Developer)\", and \"Release Window: 2027–2028\".",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-display-the-game-company-studio-name-text-night-magic-on-the-home-hero-first-screen-in-italic-styling-and-red-text-color",
+      "title": "Display the game company/studio name text \"Night Magic\" on the Home hero (first screen) in italic styling and red text color.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-browser-tab-page-title-html-title-to-use-the-game-name-axses-english-text",
+      "title": "Update the browser tab/page title (HTML <title>) to use the game name \"Axses\" (English text).",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create/update first screen (front tab) title layout: 'Axses' top/upper center, developer credit text at bottom, release window 2027–2028, and studio name 'Night Magic' in italic red.",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Axses",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

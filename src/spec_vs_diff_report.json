@@ -1,0 +1,15 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-09T03:15:15.881Z",
+  "summary": "The diff updates the Home hero to display the prominent game title \"Axses\" near the top/center, adds a bottom-centered developer/credits block including the en-dash release window “2027–2028”, shows “Night Magic” in italic red text, and updates the HTML <title> to “Axses”.",
+  "missing_requirements": [],
+  "hallucinated_features": [],
+  "confidence": 0.84,
+  "changed_files": [
+    "frontend-file-summaries.txt",
+    "frontend/index.html",
+    "frontend/src/components/home/HeroSection.tsx",
+    "project_state.json"
+  ]
+}
